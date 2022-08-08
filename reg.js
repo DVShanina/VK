@@ -1,14 +1,14 @@
 
-var users = [
+let users = [
     { name: 'leo', password: 'kisa', sex: 'man', },
     { name: 'ivan', password: 'lord', sex: 'man', },
  ];
  
  ad_names = () => {
- var name = document.getElementById('name').value;
- var password = document.getElementById('password').value;
- var sex = document.getElementById('sex').value;
- var user = {};
+ let name = document.getElementById('name').value;
+ let password = document.getElementById('password').value;
+ let sex = document.getElementById('sex').value;
+ let user = {};
  user.name=name;
  user.password=password;
  user.sex=sex;
@@ -18,9 +18,9 @@ var users = [
  }
  
  function Input() {
-    login_ok = false;
-    var user_name = document.getElementById("user_name").value
-    var user_password = document.getElementById("user_password").value
+    let login_ok = false;
+    let user_name = document.getElementById("user_name").value
+    let user_password = document.getElementById("user_password").value
  
     user_name = user_name.toLowerCase();
     user_password = user_password.toLowerCase();
