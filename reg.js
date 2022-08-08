@@ -19,14 +19,14 @@ let users = [
  
  function Input() {
     let login_ok = false;
-    let user_name = document.getElementById("user_name").value
-    let user_password = document.getElementById("user_password").value
+    let userName = document.getElementById("user_name").value
+    let userPassword = document.getElementById("user_password").value
  
-    user_name = user_name.toLowerCase();
-    user_password = user_password.toLowerCase();
+    userName = userName.toLowerCase();
+    userPassword = userPassword.toLowerCase();
  
     for (let i = 0; i < users.length-1; i++) {
-       if (user_name==users[i].name && user_password==users[i].password) {
+       if (userName==users[i].name && userPassword==users[i].password) {
           login_ok = true;
           alert("Добро пожаловать в VK!");
        }
