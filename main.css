@@ -26,16 +26,16 @@ a{
   text-decoration: none; 
   color:#FFFFFF;
    }
-#logo{
+.logo{
   width: 45px;
   height: auto;
 }
 
-#welcome-section{
+.welcome-section{
  margin: 45px 0 0 -10px;
    }
 
-#attention{
+.attention{
  background: #e8eded;
  margin: 0px;
 }
@@ -47,7 +47,7 @@ text-align: center;
 padding: 10px 0 10px 0px;
 }
 
-#survey-form{
+.survey-form{
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -81,6 +81,6 @@ button {
 button:hover{
   background: #275f9c;}
 
- #try {
+ .try {
   color:#2288f5;
   }
