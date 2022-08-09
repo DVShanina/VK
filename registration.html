@@ -3,32 +3,32 @@
     <script src="reg.js"></script>
 </head>
 <body>
-   <nav id="navbar">
+   <nav class="navbar">
      <div class="navi"> 
-     <img id="logo" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VK_Compact_Logo.svg/768px-VK_Compact_Logo.svg.png"> 
+     <img class="logo" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VK_Compact_Logo.svg/768px-VK_Compact_Logo.svg.png"> 
       </nav>
     
-   <section id="welcome-section">
+   <section class="welcome-section">
      
-   <form id="survey-form">
+   <form class="survey-form">
    <div class="survey-list">
-     <lable for="user_name" id="name-title">Телефон или e-mail</lable>
+     <lable for="user_name" class="name-title">Телефон или e-mail</lable>
       <input id="user_name"  class="list">
    </div>
    <div class="survey-list">
-     <lable for="user_password" id="password-title">Пароль</lable>
+     <lable for="user_password" class="password-title">Пароль</lable>
       <input id="user_password" type="password" class="list">
    </div>
    <div class="survey-list">
-   <button id="submit" class="list" onClick=Input()> Войти </button>
+   <button class="submit" class="list" onClick=Input()> Войти </button>
    </div>
    <div>
-     <a href="" id="try">Забыли пароль?</a>
+     <a href="" class="try">Забыли пароль?</a>
      </div>
      </form>
      
      <div>
-     <div id="welcome">
+     <div class="welcome">
      <h2>Добро пожаловать</h2>
       </div>
        </div>
@@ -36,11 +36,11 @@
       <section class="reg">
        <h3>Регистрация</h3>
         <div class="reg-list">
-     <lable for="name" id="name-title"></lable>
+     <lable for="name" class="name-title"></lable>
       <input id="name" type="" class="list" value="Телефон или e-mail">
    </div>
-        <div class="reg-list" id="reg-list">
-     <lable for="password" id="password-title"></lable>
+        <div class="reg-list">
+     <lable for="password" class="password-title"></lable>
       <input id="password" type="password" class="list" value="Пароль">
    </div>
      <select name="sex" size="1" id="sex" class="reg-list">
@@ -49,7 +49,7 @@
          <option value="woman">Женский</option>
    </select> 
         <div class="reg-list">
-   <button id="submit" class="list" onClick=ad_names()> Зарегистрироваться </button>
+   <button class="submit" class="list" onClick=ad_names()> Зарегистрироваться </button>
    </div>
      </section>
      </section>
@@ -59,12 +59,12 @@
        <section class="reg">
         <h3>Регистрация</h3>
          <div class="reg-list">
-      <lable for="name" id="name-title"></lable>
-       <input id="name" type="" class="list" value="Ваше имя">
+      <lable for="name" class="name-title"></lable>
+       <input id="name" type="" class="list" value="Логин или телефон">
     </div>
-         <div class="reg-list" id="reg-list">
-      <lable for="second_name" id="second_name-title"></lable>
-       <input id="second_name" type="" class="list" value="Ваша фамилия">
+         <div class="reg-list" >
+      <lable for="password" class="password-title"></lable>
+       <input id="password" type="" class="list" value="Пароль">
     </div>
       <select name="sex" size="1" id="sex" class="reg-list">
             <option value="none">Укажите пол</option>
