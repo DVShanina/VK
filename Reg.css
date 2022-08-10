@@ -1,34 +1,79 @@
 body{
     font-family:Sans, sans-serif;
+    background: #e8eded;
+    font-size: 14px;
   }
+  
+  header{
+    display:flex;
+    background: #FFFFFF;
+    height: 40px;
+    gap: 20px;
+    }
+  
+  .logo_name {
+    display:flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 240px;
+  }
+   
+  .logo{
+    height: 30px;
+    width: auto;
+    }
+  
+  .to_logo { 
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none; 
+     }
   
   nav{
-    display:flex;
-    position:fixed;
-    background:#2288f5;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 45px;
-    justify-content: space-between;
-     }
+  display:flex;
+   }
   
-  a:hover{
-    text-decoration:underline;
+  .language{
+    background: none;
+    margin-right: 240px;
+    color: #000000;
+    font-weight: bolder;
+    margin-left: auto;
+    border: none;
   }
-  a{
-    text-decoration: none; 
-    color:#FFFFFF;
-     }
-  .logo{
-    width: 45px;
-    height: auto;
+    
+   .language:hover{
+   text-decoration:underline;
+   background: none;
+    }
+  
+  .ikon{
+   height: 10px;
+   width: auto;
+   position: relative;
+   left: 20px;
+  }
+  .search_site{
+    display: flex;
+    align-items: center;
+  }
+  .search {
+   width: 200px;
+   height: 25px;
+   background: #e8eded;
+   border-radius: 5px;
+   padding: 0 0 0 30px;
   }
   
- .welcome-section{
+  :focus::-webkit-input-placeholder {color: transparent}
+  :focus::-moz-placeholder          {color: transparent}
+  :focus:-moz-placeholder           {color: transparent}
+  :focus:-ms-input-placeholder      {color: transparent}
+  
+  .welcome-section{
     display: grid;
     grid-template-columns: 1fr 6fr;
-    margin: 30px 0 0 -10px;
+    margin: 10px 0 0 -10px;
      }
   
   .attention{
@@ -48,34 +93,33 @@ body{
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 5;
+    gap: 10px;
   }
   
   .survey-list{
   display: flex;
   flex-direction: column;
-  padding: 10px 0 10px 0;
+  gap: 10px;
   font-size: 18px;
   width: 80%;
-  margin-top: 15px;
+  
   }
 
   .list{
   width: 100%;
   height: 30px;
   }
-
-  lable{
-  margin-bottom: 10px;
-  }
   
-  button {
+  .submit {
    background:#2288f5;
    border: none;
    color:#FFFFFF;
    font-size: 15px;
+   width: 100%;
+   height: 30px;
       }
   
-  button:hover{
+  .submit:hover{
     background: #275f9c;}
   
    .try {
@@ -86,7 +130,7 @@ h2 {
   font-size:15px;
   font-weight:normal;
   text-align: start;
-  padding: 10px 0 10px 10px;
+  padding: 5px 0 10px 10px;
   }
 
 .welcome{

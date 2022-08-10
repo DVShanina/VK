@@ -3,11 +3,19 @@
     <script src="reg.js"></script>
 </head>
 <body>
-   <nav class="navbar">
-     <div class="navi"> 
-     <img class="logo" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VK_Compact_Logo.svg/768px-VK_Compact_Logo.svg.png"> 
+   
+   <header>
+      <div class="logo_name">
+       <img class="logo" src ="logo.png"> 
+       <a class="to_logo" href="main.html">ВКОНТАКТЕ</a>
+      </div>  
+      <nav class="search_site">
+        <img class="ikon" src ="ikon.png">
+        <input type="search" placeholder="Поиск" class="search"> </input>
       </nav>
-    
+      <button class="language">Switch to English</button>
+    </header>
+
    <section class="welcome-section">
      
    <form class="survey-form">
@@ -56,25 +64,3 @@
        
     </body>
        
-       <section class="reg">
-        <h3>Регистрация</h3>
-         <div class="reg-list">
-      <lable for="name" class="name-title"></lable>
-       <input id="name" type="" class="list" value="Логин или телефон">
-    </div>
-         <div class="reg-list" >
-      <lable for="password" class="password-title"></lable>
-       <input id="password" type="" class="list" value="Пароль">
-    </div>
-      <select name="sex" size="1" id="sex" class="reg-list">
-            <option value="none">Укажите пол</option>
-        <option value="man">Мужской</option>
-            <option value="woman">Женский</option>
-    </select> 
-         <div class="reg-list">
-    <button id="submit" class="list" onClick=ad_names()> Зарегистрироваться </button>
-    </div>
-      </section>
-      </section>
-        
-     </body>
