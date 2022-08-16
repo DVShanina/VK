@@ -1,0 +1,60 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, 'Noto Sans Armenian', 'Noto Sans Bengali', 'Noto Sans Cherokee', 'Noto Sans Devanagari', 'Noto Sans Ethiopic', 'Noto Sans Georgian', 'Noto Sans Hebrew', 'Noto Sans Kannada', 'Noto Sans Khmer', 'Noto Sans Lao', 'Noto Sans Osmanya', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Thai', sans-serif;
+    background: #e8eded;
+    font-size: 12px;
+    }
+header{
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, 'Noto Sans Armenian', 'Noto Sans Bengali', 'Noto Sans Cherokee', 'Noto Sans Devanagari', 'Noto Sans Ethiopic', 'Noto Sans Georgian', 'Noto Sans Hebrew', 'Noto Sans Kannada', 'Noto Sans Khmer', 'Noto Sans Lao', 'Noto Sans Osmanya', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Thai', sans-serif;
+    font-size: 12px;
+    display:flex;
+    background: #FFFFFF;
+    height: 48px;
+    gap: 20px;
+    align-items: center;
+    padding: 0 162px;
+    }
+.logo-name{
+    display:flex;
+    gap: 10px;
+    align-items: center;
+    }
+.logo{
+    height: 24px;
+    width: auto;
+    }
+.icon{
+    height: 10px;
+    width: auto;
+    position: relative;
+    left: 20px;
+    }
+.search-site{
+    display: flex;
+    align-items: center;
+    }
+.search{
+    width: 230px;
+    height: 32px;
+    font-size: 12px;
+    background: #edeef0;
+    border-radius: 8px;
+    padding: 0 0 0 30px;
+    border: none;
+    }
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+h1 {
+    font-size:20px;
+    font-weight:normal;
+    text-align: center;
+    padding: 10px 0 10px 0px;
+    }
+h2 {
+     font-size:15px;
+     font-weight:normal;
+     text-align: start;
+     padding: 5px 0 10px 10px;
+     }
