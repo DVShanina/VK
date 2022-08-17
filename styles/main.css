@@ -1,4 +1,4 @@
-.registration-link,.reg{
+.registration,.registration_link{
    display:flex;
    color: #000000;
    font-weight: bolder;
@@ -6,29 +6,24 @@
    text-decoration:none;
    font-size: 12px;
    }
-.reg:hover{
+.registration_link:hover{
    text-decoration:underline;
    background: none;
    }
-   article{
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      width: 1050px;
-      justify-content: center;
-      align-items: center;
-      margin: auto;
-      height: 80%;
+.article_column{
+   flex-direction: column;
+   align-items: center;
+   height: 80%;
    }
-   .authorization{
-      width: 320px;
-      height: 380px;
-      background-color: #FFFFFF;
-      border-radius: 12px;
+.article_authorization-form_center{
+   width: 320px;
+   height: 380px;
+   background-color: #FFFFFF;
+   border-radius: 12px;
    }
-   .registration{
-      width: 320px;
-      height: 150px;
-      background-color: #FFFFFF;
-      border-radius: 12px;
+.article_registration-form_center{
+   width: 320px;
+   height: 150px;
+   background-color: #FFFFFF;
+   border-radius: 12px;
    }
