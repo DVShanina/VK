@@ -1,4 +1,4 @@
-.language_button{
+.language{
    background: none;
    color: #000000;
    font-weight: 700;
@@ -6,7 +6,40 @@
    border: none;
    font-size: 12px;
   }
-.language_button:hover{
+.language:hover{
    background: rgba(174, 183, 194, 0.12);
    }
-
+article{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   padding-top: 50px; 
+   width: 1050px;
+   justify-content: center;
+   margin: auto;
+}
+.visitors{
+   width: 60%;
+   height: 380px;
+   background-color: #FFFFFF;
+   border-radius: 12px;
+}
+.advertising{
+   width: 60%;
+   height: 250px;
+   background-color: #FFFFFF;
+   border-radius: 12px;
+   margin-top: -40px;
+}
+.authorization{
+   width: 30%;
+   height: 420px;
+   background-color: #FFFFFF;
+   border-radius: 12px;
+}
+.registration{
+   width: 30%;
+   height: 150px;
+   background-color: #FFFFFF;
+   border-radius: 12px;
+}
