@@ -13,14 +13,11 @@ header{
     align-items: center;
     padding: 0 470px;
     }
-.logo-name{
+.logo{
     display:flex;
-    gap: 10px;
     align-items: center;
-    }
-.logo-name_img{
     height: 24px;
-    width: auto;
+    width: 136px;
     }
 .seach-form_icon{
     height: 12px;
@@ -54,11 +51,11 @@ header{
      width: 950px;
      margin: auto;
      }
-.footer_nav_link{
+.footer_link{
      text-decoration: none;
      color: #2a5885;
      }
-.footer_nav_link:hover{
+.footer_link:hover{
      text-decoration: underline;
      }
 .footer_nav, .footer_language {
