@@ -4,64 +4,50 @@
   <link rel="stylesheet" type="text/css" href="styles/reg.css">
   <script src="reg.js"></script>
 </head>
-<body>
-   
-   <header>
-      <div class="logo-name">
-       <a href="main.html"><img class="logo" src ="images/logo2.png"> </a>
-       </div>  
-      <div class="search-site">
-        <img class="icon" src ="images/icon.png">
-        <input type="search" placeholder="Поиск" class="search"> </input>
-      </div>
-      <button class="language">Switch to English</button>
-    </header>
 
-   <section class="welcome-section">
-     
-   <form class="survey-form">
-   <div class="survey-list">
-     <lable for="user_name" class="name-title">Телефон или e-mail</lable>
-      <input id="user_name"  class="list">
-   </div>
-   <div class="survey-list">
-     <lable for="user_password" class="password-title">Пароль</lable>
-      <input id="user_password" type="password" class="list">
-   </div>
-   <div class="survey-list">
-   <button class="submit" class="list" onClick=Input()> Войти </button>
-   </div>
-   <div>
-     <a href="" class="try">Забыли пароль?</a>
-     </div>
-     </form>
-     
-     <div>
-     <div class="welcome">
-     <h2>Добро пожаловать</h2>
-      </div>
-       </div>
-      
-      <section class="reg">
-       <h3>Регистрация</h3>
-        <div class="reg-list">
-     <lable for="name" class="name-title"></lable>
-      <input id="name" type="" class="list" value="Телефон или e-mail">
-   </div>
-        <div class="reg-list">
-     <lable for="password" class="password-title"></lable>
-      <input id="password" type="password" class="list" value="Пароль">
-   </div>
-     <select name="sex" size="1" id="sex" class="reg-list">
-         <option value="none">Укажите пол</option>
-       <option value="man">Мужской</option>
-         <option value="woman">Женский</option>
-   </select> 
-        <div class="reg-list">
-   <button class="submit" class="list" onClick=ad_names()> Зарегистрироваться </button>
-   </div>
+<body>
+  <header>
+    <div class="logo">
+      <a href="main.html"><img src ="images/logo2.png"> </a>
+    </div>  
+    <div class="search-form">
+      <img class="seach-form_icon" src ="images/icon.png">
+      <input type="search" placeholder="Поиск" class="search-form_input"> </input>
+    </div>
+    <button class="language_button">Switch to English</button>
+  </header>
+
+  <article class="article">
+     <section class="article_visitors-form">
      </section>
+     <section class="article_authorization-form">
      </section>
-       
-    </body>
+     <section class="article_advertising-form">
+     </section>
+     <section class="article_registration-form">
+     </section>
+  </article>
+
+  <footer class="footer">
+   <aside class="footer_aside">
+   <a href="" class="footer_aside_link footer_nav_link"> ВКонтакте </a> © 2006-2022
+   </aside>
+   
+   <nav class="footer_nav">
+    <a href="" class="footer_link">О ВКонтакте </a>
+    <a href="" class="footer_link">Правила</a>
+    <a href="" class="footer_link">Для бизнеса </a>
+    <a href="" class="footer_link">Разработчикам</a> 
+   </nav>
+
+   <div class="footer_language">
+    <a href="" class="footer_language_link footer_link">Русский </a>
+    <a href="" class="footer_language_link footer_link">Українська</a>
+    <a href="" class="footer_language_link footer_link">English </a>
+    <a href="" class="footer_language_link footer_link">все языки »</a> 
+   </div>
+  
+   </footer>
+   
+</body>
        

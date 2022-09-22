@@ -1,4 +1,4 @@
-.registration,.reg{
+.registration,.registration_link{
    display:flex;
    color: #000000;
    font-weight: bolder;
@@ -6,44 +6,25 @@
    text-decoration:none;
    font-size: 12px;
    }
-.reg:hover{
+.registration_link:hover{
    text-decoration:underline;
    background: none;
    }
-.attention{
-   background: #e8eded;
-   margin: 0px;
-   }
-.survey-form{
-   display: flex;
+.article{
    flex-direction: column;
    align-items: center;
-   justify-content: center;
+   margin: auto;
+   height: 80%;
    }
-.survey-list{
-   display: flex;
-   flex-direction: column;
-   padding: 10px 0 10px 0;
-   font-size: 18px;
-   width: 300px;
-  }
-.list{
-   width: 100%;
-   height: 30px;
-  }
-lable{
-   margin-bottom: 10px;
+.article_authorization-form_center{
+   width: 320px;
+   height: 380px;
+   background-color: #FFFFFF;
+   border-radius: 12px;
    }
-.submit {
-   background:#2288f5;
-   border: none;
-   color:#FFFFFF;
-   font-size: 14px;
-   height: 30px;
-  }
-.submit:hover{
-   background: #275f9c;
-  }
- .try {
-   color:#2288f5;
-  }
+.article_registration-form_center{
+   width: 320px;
+   height: 150px;
+   background-color: #FFFFFF;
+   border-radius: 12px;
+   }

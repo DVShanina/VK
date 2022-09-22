@@ -11,28 +11,25 @@ header{
     height: 48px;
     gap: 20px;
     align-items: center;
-    padding: 0 162px;
-    }
-.logo-name{
-    display:flex;
-    gap: 10px;
-    align-items: center;
+    padding: 0 470px;
     }
 .logo{
+    display:flex;
+    align-items: center;
     height: 24px;
-    width: auto;
+    width: 136px;
     }
-.icon{
-    height: 10px;
+.seach-form_icon{
+    height: 12px;
     width: auto;
     position: relative;
     left: 20px;
     }
-.search-site{
+.seach-form{
     display: flex;
     align-items: center;
     }
-.search{
+.search-form_input{
     width: 230px;
     height: 32px;
     font-size: 12px;
@@ -46,15 +43,56 @@ header{
 :focus:-moz-placeholder           {color: transparent}
 :focus:-ms-input-placeholder      {color: transparent}
 
-h1 {
-    font-size:20px;
-    font-weight:normal;
-    text-align: center;
-    padding: 10px 0 10px 0px;
-    }
-h2 {
-     font-size:15px;
-     font-weight:normal;
-     text-align: start;
-     padding: 5px 0 10px 10px;
+.footer{
+     color: #2a5885;
+     display: flex;
+     justify-content: space-between;
+     padding-top: 60px;
+     width: 950px;
+     margin: auto;
+     }
+.footer_link{
+     text-decoration: none;
+     color: #2a5885;
+     }
+.footer_link:hover{
+     text-decoration: underline;
+     }
+.footer_nav, .footer_language {
+     display: flex;
+     gap: 15px;
+     }
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 50px; 
+    width: 1050px;
+    justify-content: center;
+    margin: auto;
+     }
+.article_visitors-form{
+    width: 60%;
+    height: 380px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+     }
+.article_advertising-form{
+    width: 60%;
+    height: 250px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    margin-top: -40px;
+     }
+.article_authorization-form{
+    width: 30%;
+    height: 420px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+     }
+.article_registration-form{
+    width: 30%;
+    height: 150px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
      }
